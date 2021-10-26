@@ -27,8 +27,8 @@ export default function FooterOne() {
                     <i className="fa fa-map-marker-alt" />
                     <span>Dirección:</span>
                     <span>
-                      Calle Guillermo González Camarena 200, Santa Fé, <br />{" "}
-                      Álvaro Obregón, 01210, CDMX
+                      Prol. 5 de Mayo 3121,
+                      <br /> Col Ex-Hacienda de Tarango, Álvaro Obregón, CDMX
                     </span>
                   </Footer.AddressItem>
                   <Footer.AddressItem>
@@ -36,9 +36,15 @@ export default function FooterOne() {
                     <span>
                       Whatsapp: <br className="d-block" />
                     </span>
-                    <a href="tel:5562133210" className="ms-3">
-                      55 6213 3210
-                    </a>
+                    <div>
+                      <a href="tel:5554068105" className="ms-3">
+                        55 5406 8105
+                      </a>
+                      <br />
+                      <a href="tel:5554068958" className="ms-3">
+                        55 5406 8958
+                      </a>
+                    </div>
                   </Footer.AddressItem>
                 </Footer.Address>
               </Footer.Widgets>
@@ -84,7 +90,7 @@ export default function FooterOne() {
             </Footer.Text>
             <Footer.Copyright>
               <Footer.CopyrightText>
-                © 2021 City Blue Santa Fe | Todos los derechos reservados |{" "}
+                © 2021 Grand Tower Centenario | Todos los derechos reservados |{" "}
                 <Link to="aviso" class="aviso">
                   Aviso de privacidad
                 </Link>

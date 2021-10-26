@@ -32,7 +32,7 @@ const SiteNavbar = ({ buttonBlock, darkLogo, customLogo, defaultLogo }) => {
         />
         <Menu />
         {buttonBlock}
-        <a href="tel:5562133210" target="_blank" rel="noopener noreferrer">
+        <a href="tel:5554068105 " target="_blank" rel="noopener noreferrer">
           <img src={whatsapp} alt="" />
         </a>
       </Navbar>

@@ -440,12 +440,13 @@ const SiteHeader = styled.div.attrs({
         &.scrolling {
           transform: translateY(-100%);
           transition: 0.4s;
+          background: #306095;
           .site-navbar {
             padding-top: 0;
             padding-bottom: 0;
           }
           .main-nav-item > .nav-link {
-            color: #002e6d !important;
+            color: #fff !important;
           }
         }
 

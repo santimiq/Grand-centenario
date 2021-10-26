@@ -28,8 +28,8 @@ const Hero = styled(Box)`
     background: linear-gradient(
       90deg,
       rgba(36, 73, 110, 0.912778) -44.44%,
-      rgba(24, 50, 72, 0.536139) 24.16%,
-      rgba(8, 18, 19, 0) 98.72%
+      rgba(24, 50, 72, 0.7) 24.16%,
+      rgba(8, 18, 19, 0.2) 98.72%
     );
     opacity: 0.7;
     position: absolute;

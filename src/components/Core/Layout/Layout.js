@@ -6,7 +6,7 @@ export default function Layout({ children }) {
   return (
     <>
       <Helmet>
-        <title>City Blue | Santa Fe</title>
+        <title>Grand Tower Centenario</title>
         <link rel="icon" type="image/png" href={favicon} />
       </Helmet>
       <Header />

@@ -5,7 +5,7 @@ import { Box, Button, Heading, Paragraph } from "~styled"
 const Footer = styled(Box)`
   padding-top: 60px;
   padding-bottom: 20px;
-  background-color: rgba(0, 46, 109, 1) !important;
+  background: linear-gradient(180deg, #306095 0%, #285588 76.56%) !important  ;
 
   .aviso {
     color: white !important;

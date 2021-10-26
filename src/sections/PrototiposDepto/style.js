@@ -2,11 +2,16 @@ import styled from "styled-components/macro"
 import { Box, Heading, Button, Paragraph } from "~styled"
 
 const Feature = styled(Box)`
-  padding-top: 35px;
   padding-bottom: 50px;
 
   @media (max-width: 578px) {
     padding-top: 0px;
+    .react-tabs__tab-list {
+      flex-direction: column;
+    }
+    .descripcion {
+      display: none;
+    }
   }
   @media (min-width: 768px) {
     padding-top: 55px;
@@ -14,10 +19,13 @@ const Feature = styled(Box)`
   }
 
   @media (min-width: 992px) {
-    padding-top: 0px;
+    padding-top: 30px;
     padding-bottom: 127px;
     .apagar-lg {
-      display: none;
+      /* display: none; */
+    }
+    .react-tabs__tab-panel {
+      padding-top: 100px;
     }
     .react-tabs {
       display: flex;
@@ -26,7 +34,7 @@ const Feature = styled(Box)`
     }
     .react-tabs__tab-list {
       display: flex;
-      flex-direction: column;
+      /* flex-direction: column; */
       align-self: center;
       border: none !important;
     }
@@ -37,13 +45,13 @@ const Feature = styled(Box)`
       cursor: pointer;
       color: #bbb;
       border-radius: 0px;
-      border-bottom: 1px solid #a3a5a8;
+      /* border-bottom: 1px solid #a3a5a8; */
     }
     .react-tabs__tab--selected {
-      border-left: 4px solid #002e6d;
+      border-top: 4px solid #306095;
       color: #262729;
       background: transparent;
-      border-top: 0;
+      border-left: 0;
       border-right: 0;
     }
     .descripcion {
@@ -53,25 +61,25 @@ const Feature = styled(Box)`
     }
     .titulo {
       font-family: "Campton-SemiBold";
-      font-size: 25px;
-      color: #262729;
+      font-size: 18px;
+      color: #306095;
     }
   }
   @media (max-width: 991px) {
     .apagar-sm {
-      display: none;
+      /* display: none; */
     }
     .react-tabs__tab {
       height: 50px;
       list-style: none;
       padding: 10px 20px;
       cursor: pointer;
-      color: #bbb;
+      color: #306095 !important;
       border-radius: 0px;
-      border-bottom: 1px solid #a3a5a8;
+      /* border-bottom: 1px solid #a3a5a8; */
     }
     .react-tabs__tab--selected {
-      border-left: 2px solid #002e6d;
+      border-left: 2px solid #306095;
       color: #262729;
       background: transparent;
       border-top: 0;
@@ -84,8 +92,8 @@ const Feature = styled(Box)`
     }
     .titulo {
       font-family: "Campton-SemiBold";
-      font-size: 18px;
-      color: #262729;
+      font-size: 16px;
+      color: #306095;
     }
   }
   .borde-modal {
@@ -99,14 +107,16 @@ const Feature = styled(Box)`
   }
 `
 Feature.TitleThree = styled(Heading)`
+  text-align: center;
   font-size: 45px;
   font-weight: 500;
   font-style: normal;
   letter-spacing: normal;
   line-height: 1.66666;
   margin-bottom: 12px;
-  color: #002e6d;
+  color: #306095;
   font-family: "Campton-SemiBold";
+  padding-bottom: 60px;
 `
 Feature.SubTitleThree = styled(Heading)`
   color: #a3a5a8;

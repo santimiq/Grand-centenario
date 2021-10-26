@@ -2,21 +2,16 @@ import styled from "styled-components/macro"
 import { Box, Heading, Button, Paragraph } from "~styled"
 
 const Contact = styled(Box)`
-  padding-top: 60px;
+  padding-top: 80px;
   padding-bottom: 20px;
-  background: linear-gradient(
-    179.78deg,
-    #e3e3e3 -0.37%,
-    #cfcfcf -0.37%,
-    #002e6d 94.54%
-  );
+  background-color: #f3f4f5;
   @media (min-width: 768px) {
     padding-top: 80px;
     padding-bottom: 40px;
   }
 
   @media (min-width: 992px) {
-    padding-top: 150px;
+    padding-top: 130px;
     padding-bottom: 129px;
   }
 `
@@ -26,7 +21,7 @@ Contact.Title = styled(Heading)`
   letter-spacing: normal;
   line-height: 1.3;
   position: relative;
-  color: #002e6d;
+  color: #306095;
   font-family: "Campton-SemiBold";
   @media (min-width: 768px) {
     font-size: 38px;

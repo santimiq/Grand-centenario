@@ -9,6 +9,10 @@ import pimageThree from "~image/galeria/galeriaImg3.jpg"
 import pimageFour from "~image/galeria/galeriaImg4.jpg"
 import pimageFive from "~image/galeria/galeriaImg5.jpg"
 import pimageSix from "~image/galeria/galeriaImg6.jpg"
+import pimageSeven from "~image/galeria/galeriaImg7.jpg"
+import pimageEight from "~image/galeria/galeriaImg8.jpg"
+import pimageNine from "~image/galeria/galeriaImg9.jpg"
+import pimageTen from "~image/galeria/galeriaImg10.jpg"
 const options = {
   thumbnails: {
     showThumbnails: false,
@@ -34,15 +38,10 @@ export default function PortfolioDetailsSection() {
   const elSlider = useRef()
 
   const sliderConfig1 = {
-    infinite: true,
-    speed: 3000,
-    slidesToShow: 2,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 3000,
-    arrows: false,
-    draggable: true,
+    centerMode: true,
+    slidesToShow: 3,
     dots: true,
+    arrows: false,
     lazyLoad: "ondemand",
     responsive: [
       {
@@ -64,18 +63,6 @@ export default function PortfolioDetailsSection() {
   return (
     <PortfolioDetails backgroundColor="#f3f4f6">
       <Container>
-        <PortfolioDetails.Box>
-          <Row className="align-items-center justify-content-center justify-content-lg-start">
-            <Col xs="10" className="col-xl-12 col-lg-6 col-md-10">
-              <PortfolioDetails.Content>
-                <PortfolioDetails.Title as="h2">Galería</PortfolioDetails.Title>
-                <PortfolioDetails.Text>
-                  City Blue | Santa Fe
-                </PortfolioDetails.Text>
-              </PortfolioDetails.Content>
-            </Col>
-          </Row>
-        </PortfolioDetails.Box>
         <Row className="justify-content-center justify-content-lg-start">
           <Col xs="10" className="col-xl-12 col-lg-6 col-md-10">
             <PortfolioDetails.SliderWrapper mt="50px" mtLG="80px">
@@ -112,6 +99,26 @@ export default function PortfolioDetailsSection() {
                 <PortfolioDetails.Slide>
                   <SRLWrapper options={options}>
                     <img src={pimageSix} />
+                  </SRLWrapper>
+                </PortfolioDetails.Slide>
+                <PortfolioDetails.Slide>
+                  <SRLWrapper options={options}>
+                    <img src={pimageSeven} />
+                  </SRLWrapper>
+                </PortfolioDetails.Slide>
+                <PortfolioDetails.Slide>
+                  <SRLWrapper options={options}>
+                    <img src={pimageEight} />
+                  </SRLWrapper>
+                </PortfolioDetails.Slide>
+                <PortfolioDetails.Slide>
+                  <SRLWrapper options={options}>
+                    <img src={pimageNine} />
+                  </SRLWrapper>
+                </PortfolioDetails.Slide>
+                <PortfolioDetails.Slide>
+                  <SRLWrapper options={options}>
+                    <img src={pimageTen} />
                   </SRLWrapper>
                 </PortfolioDetails.Slide>
               </Slider>

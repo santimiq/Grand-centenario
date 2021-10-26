@@ -2,7 +2,7 @@ import styled from "styled-components/macro"
 import { Box, Heading, Button, Paragraph } from "~styled"
 
 const PortfolioDetails = styled(Box)`
-  padding: 45px 0;
+  /* padding: 45px 0;
 
   @media (min-width: 768px) {
     padding: 40px 0;
@@ -13,7 +13,7 @@ const PortfolioDetails = styled(Box)`
   }
   @media (max-width: 578px) {
     padding: 45px 0 30px 0;
-  }
+  } */
 `
 PortfolioDetails.Image = styled(Box)`
   img {
@@ -50,52 +50,28 @@ PortfolioDetails.Text = styled(Paragraph)`
   color: #a3a5a8;
   font-family: "Campton-SemiBold";
 `
-// PortfolioDetails.List = styled(Box)`
-//   padding: 0;
-//   margin: 0;
-//   li {
-//     font-size: 18px;
-//     font-weight: 500;
-//     letter-spacing: normal;
-//     line-height: 25px;
-//     position: relative;
-//     padding-left: 30px;
-//     margin-bottom: 20px;
-//     list-style: none;
-
-//     &::before {
-//       content: "";
-//       position: absolute;
-//       left: 0;
-//       top: 50%;
-//       transform: translateY(-50%);
-//       width: 11px;
-//       height: 11px;
-//       border-radius: 50%;
-//       background-color: #ff5722;
-//     }
-
-//     span {
-//       color: #262729;
-//       margin-right: 15px;
-//     }
-//   }
-// `
 
 PortfolioDetails.Box = styled(Box)``
 PortfolioDetails.SliderWrapper = styled(Box)`
-  .slick-list {
+  .slick-list  {
     margin: 0 -12px;
+    padding: 0 180px !important;
     @media (min-width: 992px) {
       width: 150%;
+    }
+    @media (max-width: 578px) {
+      padding: 0 50px !important;
+
     }
   }
   .slick-slide {
     padding: 0 12px;
+    
     &:focus {
       outline: none !important;
       box-shadow: none;
     }
+
   }
   .single-slide {
     border-radius: 10px;
@@ -114,48 +90,37 @@ PortfolioDetails.SliderWrapper = styled(Box)`
   }
 
   .slick-dots {
-    background: rgba(0, 0, 0, 0.07);
-    border-radius: 10px;
-    position: relative;
-    height: 6px;
-    margin-top: 40px;
+    list-style: none;
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 50px;
     li {
-      position: absolute;
-
-      width: 100%;
-      height: 100%;
-      margin: 0;
-      list-style: none;
-      overflow: hidden;
-      border-radius: 500px;
+      display: flex;
       button {
-        position: absolute;
-        padding: 0;
-        width: 0;
-        height: 100%;
-        margin: 0;
         border: none;
-        background: transparent;
-        font-size: 0;
-        transition: width 6s linear;
-        border-radius: 500px;
-        /* transition-delay: .5s; */
-        /* top:0;
-            left:0; */
+        color: transparent;
+        width: 22px;
+        height: 5px;
+        border-radius: 3px;
+        background-color: #828288;
+        margin: 0 5px;
+        transition: 0.4s ease-in-out;
+        &:focus {
+          outline: none;
+        }
       }
-
       &.slick-active {
-        display: block;
-        width: 100%;
-        top: 0;
-        left: 0;
         button {
-          background: #002e6d;
-          width: 100%;
+          background-color: #306095;
         }
       }
     }
-  }
 `
 PortfolioDetails.Slide = styled(Box).attrs({ className: "single-slide" })``
 

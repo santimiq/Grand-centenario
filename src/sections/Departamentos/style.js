@@ -4,7 +4,12 @@ import { Box, Heading, Button, Paragraph } from "~styled"
 const PortfolioDetails = styled(Box)`
   padding-top: 60px;
   padding-bottom: 100px;
-  background: #e5e5e5;
+  background: linear-gradient(
+    179.97deg,
+    #306095 0.03%,
+    rgba(48, 96, 149, 0.932292) 21.37%,
+    rgba(48, 96, 149, 0) 97.7%
+  );
 
   @media (max-width: 768px) {
     padding-top: 80px;
@@ -21,6 +26,43 @@ const PortfolioDetails = styled(Box)`
   .row-change-mobile {
     @media (max-width: 768px) {
       flex-direction: column-reverse;
+    }
+  }
+
+  .deptos {
+    background: white;
+    border-radius: 15px !important;
+
+    img {
+      border-radius: 15px 15px 0 0;
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
+
+    h3 {
+      color: #306095;
+      font-size: 30px;
+      padding-bottom: 12px;
+    }
+
+    div {
+      padding: 32px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      padding: 8px 0;
+    }
+
+    ul li:before {
+      content: "✓";
+      margin-right: 12px;
+      color: #306095;
     }
   }
 `
@@ -45,7 +87,7 @@ PortfolioDetails.Title = styled(Heading)`
   letter-spacing: normal;
   line-height: 54px;
   margin-bottom: 65px;
-  color: #002e6d;
+  color: #fff;
   font-family: "Campton-SemiBold";
 
   @media (min-width: 768px) {
@@ -62,13 +104,12 @@ PortfolioDetails.Title = styled(Heading)`
 `
 
 PortfolioDetails.Text = styled(Paragraph)`
-  font-size: 25px;
+  font-size: 16px;
   font-weight: 500;
   letter-spacing: normal;
   line-height: 32px;
   margin-bottom: 20px;
-  margin-right: 10px;
-  color: #002e6d;
+  color: #fff !important;
   font-family: "Campton-SemiBold";
 `
 PortfolioDetails.List = styled(Box)`

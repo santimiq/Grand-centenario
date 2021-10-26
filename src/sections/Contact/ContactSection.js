@@ -11,15 +11,12 @@ export default function ContactSction({ ...rest }) {
         <Row className="justify-content-center text-center">
           <Col xs="10" className="col-xl-12 col-md-10">
             <Contact.Box mb="45" mbMD="3.135rem" mbLG="80px">
-              <Contact.Subtitle as="h6" fontColor="#262729">
-                City Blue | Santa Fe
-              </Contact.Subtitle>
               <Contact.Title as="h2" pb="20px">
-                Visita nuestro showroom
+                Nuestra Ubicación
               </Contact.Title>
             </Contact.Box>
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3764.0157270818254!2d-99.26333768537282!3d19.36847168692083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d200dcb1f71b3b%3A0x7c6d2596378c89b2!2sC.%20Guillermo%20Gonzalez%20Camarena%20200%2C%20Santa%20Fe%2C%20%C3%81lvaro%20Obreg%C3%B3n%2C%2001219%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1sen!2smx!4v1629934668295!5m2!1sen!2smx"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3790.3316961264054!2d-99.22502146068432!3d19.362660577590574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d2005cb66eea79%3A0x98fc68f8a57f8f71!2sProl.%205%20de%20Mayo%203121%2C%20La%20Nacional%2C%20%C3%81lvaro%20Obreg%C3%B3n%2C%2001610%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1sen!2smx!4v1634841513586!5m2!1sen!2smx"
               loading="lazy"
               className="col-12 rounded"
               height="550px"
