@@ -130,7 +130,7 @@ Feature.TitleThree = styled(Heading)`
   }
 
   @media (max-width: 578px) {
-    font-size: 32px;
+    font-size: 26px;
   }
 `
 Feature.SubTitleThree = styled(Heading)`

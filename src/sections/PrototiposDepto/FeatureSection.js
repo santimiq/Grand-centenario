@@ -22,7 +22,9 @@ export default function FeatureSection() {
         <Row className="align-items-center justify-content-center">
           <Col xs="10" className="col-xl-10 col-lg-6 col-md-10 col-xs-10">
             <Feature.Box>
-              <Feature.TitleThree as="">Prototipos</Feature.TitleThree>
+              <Feature.TitleThree as="">
+                Departamentos Prototipos
+              </Feature.TitleThree>
             </Feature.Box>
           </Col>
         </Row>
