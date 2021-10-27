@@ -18,17 +18,6 @@ SectionTitle.Subtitle = styled(Heading)`
   position: relative;
   padding-left: 60px;
   display: inline-block;
-  &:before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    bottom: 9px;
-    width: 41px;
-    height: 1px;
-    background-color: #306095;
-  }
 `
 SectionTitle.Main = styled(Heading)`
   font-size: 32px;
@@ -36,6 +25,14 @@ SectionTitle.Main = styled(Heading)`
   letter-spacing: normal;
   line-height: 1.38095;
   color: #306095;
+
+  span::before {
+    display: inline-block;
+    content: "";
+    border-top: 0.1rem solid #306095;
+    width: 2rem;
+    margin: 0.7rem 1rem;
+  }
 
   @media (min-width: 768px) {
     font-size: 33px;

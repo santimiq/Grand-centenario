@@ -3,7 +3,7 @@ import { Box, Heading, Button, Paragraph } from "~styled"
 
 const PortfolioDetails = styled(Box)`
   padding-top: 60px;
-  padding-bottom: 100px;
+  padding-bottom: 40px;
   background: linear-gradient(
     179.97deg,
     #306095 0.03%,
@@ -44,6 +44,9 @@ const PortfolioDetails = styled(Box)`
       color: #306095;
       font-size: 30px;
       padding-bottom: 12px;
+      @media (max-width: 578px) {
+        font-size: 24px;
+      }
     }
 
     div {
@@ -53,6 +56,8 @@ const PortfolioDetails = styled(Box)`
     ul {
       list-style: none;
       padding: 0;
+      text-indent: -23px;
+      margin-left: 20px;
     }
 
     li {
@@ -89,6 +94,13 @@ PortfolioDetails.Title = styled(Heading)`
   margin-bottom: 65px;
   color: #fff;
   font-family: "Campton-SemiBold";
+  &::before {
+    display: inline-block;
+    content: "";
+    border-top: 0.1rem solid #fff;
+    width: 3rem;
+    margin: 0.7rem 1rem;
+  }
 
   @media (min-width: 768px) {
     font-size: 35px;

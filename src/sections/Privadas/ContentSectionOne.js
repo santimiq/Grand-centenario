@@ -16,7 +16,6 @@ export default function ContentSectionOne() {
             >
               {/* Section Title */}
               <SectionTitle
-                subTitle="Grand Tower Centenario"
                 title="Oficinas Privadas"
                 text="¿Necesitas un espacio para trabajar que no esté dentro de tu propia casa, pero al que llegues caminando en dos minutos?"
                 titleProps={{ mb: "30px" }}

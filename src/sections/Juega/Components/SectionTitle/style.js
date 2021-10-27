@@ -3,45 +3,34 @@ import { Heading, Box, Paragraph } from "~styled"
 
 const SectionTitle = styled(Box)``
 SectionTitle.Text = styled(Paragraph)`
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   letter-spacing: normal;
   line-height: 1.77777;
-  color: #306095;
+  color: inherit;
 `
 SectionTitle.Subtitle = styled(Heading)`
-  color: #306095;
+  color: #6d6e71 !important;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
   letter-spacing: normal;
   line-height: 28px;
   position: relative;
   display: inline-block;
 `
 SectionTitle.Main = styled(Heading)`
-  font-size: 42px;
+  font-size: 32px;
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.38095;
-  color: #306095;
-  font-family: "Campton-SemiBold";
-  padding: 16px 0;
-  &::before {
-    display: inline-block;
-    content: "";
-    border-top: 0.1rem solid #306095;
-    width: 3rem;
-    margin: 0.7rem 1rem;
-  }
+  color: #306095 !important;
 
-  @media (max-width: 578px) {
-    font-size: 32px;
-  }
   @media (min-width: 768px) {
     font-size: 33px;
   }
-  @media (min-width: 992px) {
-    font-size: 40px;
+
+  @media (min-width: 1200px) {
+    font-size: 38px;
   }
 `
 export default SectionTitle

@@ -5,9 +5,18 @@ const Hero = styled(Box)`
   padding-top: 125px;
   padding-bottom: 60px;
   background-size: cover;
-  background-position: center center;
+  /* background-position: center center; */
+  /* background-repeat: no-repeat; */
   position: relative;
   z-index: 998;
+  /* height: 100vh; */
+  @media (max-width: 578px) {
+    padding-top: 40vh;
+    padding-bottom: 80px;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+  }
   @media (min-width: 768px) {
     padding-top: 145px;
     padding-bottom: 80px;
@@ -55,7 +64,7 @@ Hero.Text = styled(Paragraph)`
   }
 `
 Hero.Title = styled(Heading)`
-  font-size: 35px;
+  font-size: 32px;
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
@@ -63,15 +72,15 @@ Hero.Title = styled(Heading)`
   font-family: "Campton-SemiBold";
 
   @media (min-width: 480px) {
-    font-size: 40px;
+    font-size: 36px;
   }
 
   @media (min-width: 768px) {
-    font-size: 50px;
+    font-size: 40px;
   }
 
   @media (min-width: 992px) {
-    font-size: 60px;
+    font-size: 50px;
   }
 `
 Hero.Button = styled(Button)`

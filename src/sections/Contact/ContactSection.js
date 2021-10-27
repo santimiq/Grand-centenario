@@ -10,7 +10,7 @@ export default function ContactSction({ ...rest }) {
       <Container>
         <Row className="justify-content-center text-center">
           <Col xs="10" className="col-xl-12 col-md-10">
-            <Contact.Box mb="45" mbMD="3.135rem" mbLG="80px">
+            <Contact.Box mb="45" mbMD="3.135rem" mbLG="20px">
               <Contact.Title as="h2" pb="20px">
                 Nuestra Ubicación
               </Contact.Title>

@@ -13,10 +13,9 @@ export default function HeroSection() {
             <Hero.Content className="text-left">
               <Hero.Title as="h1" fontColor="#fff">
                 Un lugar para disfrutar
-                <br /> estar en casa
               </Hero.Title>
               <Hero.Text fontColor="#fff">
-                Único proyecto en la zona de Ex Hacienda de Tarango,
+                Único proyecto en la zona de Tarango,
                 <br /> diseñado bajo el concepto Residential & Amenities.
               </Hero.Text>
             </Hero.Content>

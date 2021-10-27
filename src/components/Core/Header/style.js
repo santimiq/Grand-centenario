@@ -11,6 +11,16 @@ const SiteHeader = styled.div.attrs({
     padding-top: 13px;
     padding-bottom: 13px;
   }
+  .nueva-navbar {
+    display: flex;
+    align-items: center;
+  }
+  @media (min-width: 992px) {
+    .navbar-expand-lg {
+      flex-wrap: nowrap;
+      justify-content: space-between !important;
+    }
+  }
   .hamburgur {
     order: 3;
     border-color: rgba(255, 255, 255, 0.5);

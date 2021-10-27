@@ -21,13 +21,6 @@ export default function PortfolioDetailsSection() {
       <Container>
         <Row className="text-center justify-content-center">
           <Col xs="10" className="">
-            <PortfolioDetails.Text>
-              Grand Tower Centenario
-            </PortfolioDetails.Text>
-          </Col>
-        </Row>
-        <Row className="text-center justify-content-center">
-          <Col xs="10" className="">
             <PortfolioDetails.Title as="h2">
               Departamentos
             </PortfolioDetails.Title>
@@ -43,7 +36,7 @@ export default function PortfolioDetailsSection() {
                 <ul>
                   <li>50 a 140m²</li>
                   <li>Todos con balcón</li>
-                  <li>1,2 y 3 recámaras</li>
+                  <li>1, 2 y 3 recámaras</li>
                   <li>1, 2 o 3 baños</li>
                   <li>1 o 2 estacionamientos</li>
                   <li>Opción de Bodega</li>

@@ -5,6 +5,10 @@ const Container = styled(Box)`
   padding-top: 80px;
   padding-bottom: 36px;
 
+  @media (max-width: 578px) {
+    padding-top: 30px;
+    padding-bottom: 55px;
+  }
   @media (min-width: 768px) {
     padding-top: 70px;
     padding-bottom: 55px;
@@ -22,7 +26,7 @@ const Container = styled(Box)`
     color: #6d6e71;
   }
   .portal-text {
-    font-size: 14px;
+    font-size: 12px;
     color: #6d6e71;
     padding-top: 16px;
     line-height: 1.77777;

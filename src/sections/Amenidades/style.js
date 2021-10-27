@@ -64,7 +64,7 @@ Content.Block = styled(Box)`
   }
 `
 Content.Title = styled(Heading)`
-  font-size: 42px;
+  font-size: 32px;
   font-weight: 500;
   letter-spacing: -2px;
   line-height: 1.20689;
@@ -72,6 +72,9 @@ Content.Title = styled(Heading)`
   color: #002e6d;
   font-family: "Campton-SemiBold";
 
+  @media (max-width: 578px) {
+    font-size: 32px;
+  }
   @media (min-width: 768px) {
     font-size: 35px;
   }

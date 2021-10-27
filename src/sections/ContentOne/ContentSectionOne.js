@@ -12,8 +12,7 @@ export default function ContentSectionOne() {
           <Col className="col-xl-5 col-lg-6 col-md-8 col-xs-10 order-1 order-lg-1">
             <Content.Box mb="65px">
               <SectionTitle
-                subTitle="Proyecto"
-                title="Un lugar para disfrutar<br/>estar en casa"
+                title="Proyecto"
                 text="Además de espacios funcionales y modernos al interior de los departamentos, nos hemos ocupado por diseñar áreas deportivas y de esparcimiento para que la familia realice las actividades de su preferencia en ambientes agradables, divertidos y seguros, lo que sin duda te dará una mejor calidad de vida."
                 subTitleProps={{ mb: "10px" }}
                 titleProps={{ mb: "10px", as: "h2" }}
@@ -21,8 +20,8 @@ export default function ContentSectionOne() {
               <p mb="69px" className="grand-tower-text">
                 <b>Grand Tower Centenario</b> se ubica entre Periférico, a la
                 altura de Las Águilas, y a un paso del nuevo centro comercial
-                Portal Centenario*. Alrededor cuenta varios parques y reservas
-                ecológicas y con todos los servicios e infraestructura
+                Portal Centenario*. Alrededor cuenta con varios parques y
+                reservas ecológicas y con todos los servicios e infraestructura
                 necesarios.
               </p>
               <p className="portal-text">

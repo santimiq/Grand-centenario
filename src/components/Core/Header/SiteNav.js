@@ -26,15 +26,17 @@ const SiteNavbar = ({ buttonBlock, darkLogo, customLogo, defaultLogo }) => {
             />
           )}
         </Navbar.Brand>
-        <Navbar.Toggle
-          aria-controls="responsive-navbar-nav"
-          className="hamburgur"
-        />
-        <Menu />
-        {buttonBlock}
-        <a href="tel:5554068105 " target="_blank" rel="noopener noreferrer">
-          <img src={whatsapp} alt="" />
-        </a>
+        <div className="nueva-navbar">
+          <Navbar.Toggle
+            aria-controls="responsive-navbar-nav"
+            className="hamburgur"
+          />
+          <Menu />
+          {buttonBlock}
+          <a href="tel:5554068105 " target="_blank" rel="noopener noreferrer">
+            <img src={whatsapp} alt="" />
+          </a>
+        </div>
       </Navbar>
     </>
   )

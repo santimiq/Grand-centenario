@@ -25,7 +25,7 @@ const Feature = styled(Box)`
       /* display: none; */
     }
     .react-tabs__tab-panel {
-      padding-top: 100px;
+      padding-top: 30px;
     }
     .react-tabs {
       display: flex;
@@ -63,6 +63,10 @@ const Feature = styled(Box)`
       font-family: "Campton-SemiBold";
       font-size: 18px;
       color: #306095;
+    }
+    .borde-modal {
+      max-width: 60% !important;
+      max-height: 60% !important;
     }
   }
   @media (max-width: 991px) {
@@ -108,7 +112,7 @@ const Feature = styled(Box)`
 `
 Feature.TitleThree = styled(Heading)`
   text-align: center;
-  font-size: 45px;
+  font-size: 42px;
   font-weight: 500;
   font-style: normal;
   letter-spacing: normal;
@@ -116,7 +120,18 @@ Feature.TitleThree = styled(Heading)`
   margin-bottom: 12px;
   color: #306095;
   font-family: "Campton-SemiBold";
-  padding-bottom: 60px;
+  padding-bottom: 20px;
+  &::before {
+    display: inline-block;
+    content: "";
+    border-top: 0.1rem solid #306095;
+    width: 3rem;
+    margin: 0.7rem 1rem;
+  }
+
+  @media (max-width: 578px) {
+    font-size: 32px;
+  }
 `
 Feature.SubTitleThree = styled(Heading)`
   color: #a3a5a8;

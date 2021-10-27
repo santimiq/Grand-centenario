@@ -9,7 +9,8 @@ export default function ServicesSection() {
       <Container className="container">
         <Row className="row justify-content-center">
           {/* Single Services */}
-          <Col className="col-xl-4 col-lg-4 col-md-6 col-xs-8 mt-5">
+
+          <Col xs="6" className="col-xl-4 col-lg-4 col-md-6 col-xs-6 mt-5">
             <ServicesCard
               title="Torre Centenario"
               icon="fas fa-building"
@@ -18,7 +19,7 @@ export default function ServicesSection() {
             />
           </Col>
           {/*/ .Single Services */}
-          <Col xs="12" className="col-xl-4 col-lg-4 col-md-6 col-xs-8 mt-5">
+          <Col xs="6" className="col-xl-4 col-lg-4 col-md-6 col-xs-6 mt-5">
             <ServicesCard
               title="Torre Park"
               icon="fas fa-building"
@@ -28,17 +29,17 @@ export default function ServicesSection() {
           </Col>
           {/*/ .Single Services */}
           {/*/ .Single Services */}
-          <Col xs="12" className="col-xl-4 col-lg-4 col-md-6 col-xs-8 mt-5">
+          <Col xs="6" className="col-xl-4 col-lg-4 col-md-6 col-xs-6 mt-5">
             <ServicesCard
-              title="Torre City"
+              title="Sky Park"
               icon="fas fa-building"
               iconColor="#306095"
-              text="Boliche <br/>Arcade<br/>Kids Club<br/>Salón de juegos <br/>Salón de estudio"
+              text="Asadores <br/> Fogateros<br/>Sky Lounge"
             />
           </Col>
           {/*/ .Single Services */}
           {/* Single Services */}
-          <Col xs="12" className="col-xl-4 col-lg-4 col-md-6 col-xs-8 mt-5">
+          <Col xs="6" className="col-xl-4 col-lg-4 col-md-6 col-xs-6 mt-5">
             <ServicesCard
               title="Torre Lago"
               icon="fas fa-building"
@@ -46,7 +47,7 @@ export default function ServicesSection() {
               text="Lobby principal <br/>Oficinas Privadas<br/>Snack"
             />
           </Col>
-          <Col xs="12" className="col-xl-4 col-lg-4 col-md-6 col-xs-8 mt-5">
+          <Col xs="6" className="col-xl-4 col-lg-4 col-md-6 col-xs-6 mt-5">
             <ServicesCard
               title="Exteriores"
               icon="fas fa-building"
@@ -54,12 +55,12 @@ export default function ServicesSection() {
               text="Lago y cascada <br/>4,120m² de jardines<br/>Paddle / Tennis <br/>Garden Gym<br/>Juegos infantiles <br/>Basket 21 <br/>Área de mascotas <br/>Circuito infantil <br/>Golfito"
             />
           </Col>
-          <Col xs="12" className="col-xl-4 col-lg-4 col-md-6 col-xs-8 mt-5">
+          <Col xs="6" className="col-xl-4 col-lg-4 col-md-6 col-xs-6 mt-5">
             <ServicesCard
-              title="Sky Park"
+              title="Torre City"
               icon="fas fa-building"
               iconColor="#306095"
-              text="Asadores <br/> Fogateros<br/>Sky Lounge"
+              text="Boliche <br/>Arcade<br/>Kids Club<br/>Salón de juegos <br/>Salón de estudio"
             />
           </Col>
         </Row>

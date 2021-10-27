@@ -9,6 +9,7 @@ import Contacto from "~sections/Contact"
 import Footer from "~sections/FooterOne"
 import ContentOne from "~sections/ContentOne"
 import Team from "~sections/Team"
+import Juega from "~sections/Juega"
 import Services from "~sections/Services"
 import OfPrivadas from "~sections/Privadas"
 
@@ -29,6 +30,7 @@ export default function Marketing() {
       <SimpleReactLightbox>
         <Galeria />
       </SimpleReactLightbox>
+      <Juega />
       <Services />
       <OfPrivadas />
       <Contacto />

@@ -4,11 +4,10 @@ import { Col, Container, Row } from "react-bootstrap"
 import Slider from "react-slick"
 import PortfolioDetails from "./style"
 import pimageOne from "~image/galeria/galeriaImg1.jpg"
-import pimageTwo from "~image/galeria/galeriaImg2.jpg"
-import pimageThree from "~image/galeria/galeriaImg3.jpg"
-import pimageFour from "~image/galeria/galeriaImg4.jpg"
-import pimageFive from "~image/galeria/galeriaImg5.jpg"
-import pimageSix from "~image/galeria/galeriaImg6.jpg"
+import pimageTwo from "~image/galeria/galeriaImg2.jpeg"
+import pimageThree from "~image/galeria/galeriaImg3.jpeg"
+import pimageFour from "~image/galeria/galeriaImg4.jpeg"
+import pimageFive from "~image/galeria/galeriaImg5.jpeg"
 import pimageSeven from "~image/galeria/galeriaImg7.jpg"
 import pimageEight from "~image/galeria/galeriaImg8.jpg"
 import pimageNine from "~image/galeria/galeriaImg9.jpg"
@@ -65,7 +64,7 @@ export default function PortfolioDetailsSection() {
       <Container>
         <Row className="justify-content-center justify-content-lg-start">
           <Col xs="10" className="col-xl-12 col-lg-6 col-md-10">
-            <PortfolioDetails.SliderWrapper mt="50px" mtLG="80px">
+            <PortfolioDetails.SliderWrapper mt="50px" mtLG="30px">
               <Slider
                 ref={elSlider}
                 className="testimonial-slider"
@@ -94,11 +93,6 @@ export default function PortfolioDetailsSection() {
                 <PortfolioDetails.Slide>
                   <SRLWrapper options={options}>
                     <img src={pimageFive} />
-                  </SRLWrapper>
-                </PortfolioDetails.Slide>
-                <PortfolioDetails.Slide>
-                  <SRLWrapper options={options}>
-                    <img src={pimageSix} />
                   </SRLWrapper>
                 </PortfolioDetails.Slide>
                 <PortfolioDetails.Slide>

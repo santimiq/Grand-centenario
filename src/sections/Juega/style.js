@@ -2,7 +2,7 @@ import styled from "styled-components/macro"
 import { Box, Heading, Button, Paragraph } from "~styled"
 
 const Team = styled(Box)`
-  padding-top: 55px;
+  padding-top: 30px;
   /* padding-bottom: 40px; */
   @media (min-width: 768px) {
     padding-top: 75px;
@@ -10,7 +10,7 @@ const Team = styled(Box)`
   }
 
   @media (min-width: 992px) {
-    padding-top: 80px;
+    padding-top: 5px;
     /* padding-bottom: 110px; */
   }
 `
