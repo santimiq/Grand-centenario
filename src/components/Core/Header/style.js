@@ -498,7 +498,7 @@ const SiteHeader = styled.div.attrs({
     }
     @media (max-width: 576px) {
       .main-nav-item > .nav-link {
-      color: #002e6d !important;
+      color: #306095 !important;
     }
   }
   /* Dark Header */

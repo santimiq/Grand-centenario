@@ -51,13 +51,13 @@ export default function ServicesSection() {
               title="Exteriores"
               icon="fas fa-building"
               iconColor="#306095"
-              text="Lago y cascada <br/>4,120 m2 de jardines<br/>Paddle / Tennis <br/>Garden Gym<br/>Juegos infantiles <br/>Basket 21 <br/>Área de mascotas <br/>Circuito infantil <br/>Golfito"
+              text="Lago y cascada <br/>4,120m² de jardines<br/>Paddle / Tennis <br/>Garden Gym<br/>Juegos infantiles <br/>Basket 21 <br/>Área de mascotas <br/>Circuito infantil <br/>Golfito"
             />
           </Col>
           <Col xs="12" className="col-xl-4 col-lg-4 col-md-6 col-xs-8 mt-5">
             <ServicesCard
               title="Sky Park"
-              icon="fas fa-chart-pie"
+              icon="fas fa-building"
               iconColor="#306095"
               text="Asadores <br/> Fogateros<br/>Sky Lounge"
             />

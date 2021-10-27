@@ -6,7 +6,7 @@ import Contact from "./style"
 
 export default function ContactSction({ ...rest }) {
   return (
-    <Contact {...rest} id="contacto">
+    <Contact {...rest}>
       <Container>
         <Row className="justify-content-center text-center">
           <Col xs="10" className="col-xl-12 col-md-10">

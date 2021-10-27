@@ -4,31 +4,28 @@ import { useState } from "react"
 import { Container, Row, Col } from "react-bootstrap"
 
 export default function ContactForm({ ...rest }) {
-  const [agree, setAgree] = useState(false)
-
-  const checkboxHandler = () => {
-    // if agree === true, it will be set to false
-    // if agree === false, it will be set to true
-    setAgree(!agree)
-    // Don't miss the exclamation mark
-  }
-
-  // When the button is clicked
-
   return (
     <Form {...rest}>
       <Row>
         <Col className="col-xl-8 col-lg-8 col-md-6 col-xs-12">
           <p className="form-whatsapp">¿Tienes alguna duda?</p>
           <h3 className="form-title">Escríbenos</h3>
-          <div className="contact-form">
+          <div className="contact-form" id="contacto">
             <form
               name="contact"
               method="post"
               data-netlify="true"
-              data-netlify-recaptcha="true"
+              onSubmit="submit"
+              action="/mail"
+              data-netlify-honeypot="bot-field"
             >
+              {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
               <input type="hidden" name="form-name" value="contact" />
+              <p hidden>
+                <label>
+                  Don’t fill this out: <input name="bot-field" />
+                </label>
+              </p>
               <div className="row">
                 <div className="col-lg-4 mb-4">
                   <div className="form-floating">
@@ -84,31 +81,13 @@ export default function ContactForm({ ...rest }) {
                 </div>
                 <div className="col-lg-12">
                   <div className="row align-items-center mt-3 flex-column">
-                    <div className="col-md-8 col-lg-7 col-md-6 col-xl-8 pt-3">
-                      <div className="form-check d-flex align-items-center justify-content-center">
-                        <input
-                          className="form-check-input bg-white float-none mt-0"
-                          type="checkbox"
-                          defaultValue
-                          // id="flexCheckDefault"
-                          name="Terminos"
-                          id="agree"
-                          onChange={checkboxHandler}
-                        />
-                        <label className="form-check-label" htmlFor="agree">
-                          Estoy de acuerdo con los términos y condiciones.
-                        </label>
-                      </div>
-                    </div>
                     <div className="col-md-4 col-lg-5 col-xl-4 text-center   pt-3">
                       <button
                         type="submit"
                         className="btn btn--lg-2 shadow--torch-red-3 rounded-55 boton-enviar"
-                        disabled={!agree}
                       >
                         Enviar
                       </button>
-                      <div data-netlify-recaptcha="true"></div>
                     </div>
                   </div>
                 </div>
@@ -127,7 +106,7 @@ export default function ContactForm({ ...rest }) {
                 <h6>Visitanos en:</h6>
                 <p>
                   Prol. 5 de Mayo 3121 Col Ex-Hacienda de Tarango, Álvaro
-                  Obregón CDMX
+                  Obregón, CDMX
                 </p>
               </div>
             </div>

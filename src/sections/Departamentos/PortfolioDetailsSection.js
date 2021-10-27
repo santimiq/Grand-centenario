@@ -41,7 +41,7 @@ export default function PortfolioDetailsSection() {
               <div>
                 <h3>Características</h3>
                 <ul>
-                  <li>50 a 140 m2</li>
+                  <li>50 a 140m²</li>
                   <li>Todos con balcón</li>
                   <li>1,2 y 3 recámaras</li>
                   <li>1, 2 o 3 baños</li>

@@ -57,8 +57,8 @@ export default function ContentSectionOne() {
                     Características de las oficinas
                   </Content.WidgetTitle>
                   <Content.WidgetText>
-                    Desde 7.50 m2
-                    <br /> Hasta 14.40 m2
+                    Desde 7.50m²
+                    <br /> Hasta 14.40m²
                   </Content.WidgetText>
                   <ul>
                     <li>Acceso Controlado</li>

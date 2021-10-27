@@ -18,6 +18,11 @@ const Footer = styled(Box)`
     padding-top: 100px;
     padding-bottom: 20px;
   }
+  @media (max-width: 578px) {
+    .logo-footer {
+      text-align: center !important;
+    }
+  }
 `
 Footer.Widgets = styled(Box)``
 Footer.Newsletter = styled(Box)`

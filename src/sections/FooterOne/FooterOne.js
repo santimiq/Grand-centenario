@@ -12,7 +12,7 @@ export default function FooterOne() {
             <Col xs="10" className="col-lg-4 col-md-10 col-xs-10">
               <Footer.Widgets className="footer-widgets footer-widgets--l7">
                 {/* Brand Logo*/}
-                <Footer.Box mb="30px">
+                <Footer.Box mb="30px" className="logo-footer">
                   <Link to="#">
                     <img src={Images.FooterOne.LogoWhite} alt="logo" />
                   </Link>

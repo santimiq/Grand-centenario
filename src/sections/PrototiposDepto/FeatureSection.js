@@ -32,39 +32,31 @@ export default function FeatureSection() {
               <TabList>
                 <Tab>
                   <span className="titulo">Prototipo A</span> <br />{" "}
-                  <span className="descripcion">95 m2 + 17.5 m2 de balcón</span>
+                  <span className="descripcion">95m² + 17.5m² de balcón</span>
                 </Tab>
                 <Tab>
                   <span className="titulo">Prototipo B</span> <br />{" "}
-                  <span className="descripcion">
-                    91.5 m2 + 17.8 m2 de balcón
-                  </span>
+                  <span className="descripcion">91.5m² + 17.8m² de balcón</span>
                 </Tab>
                 <Tab>
                   <span className="titulo">Prototipo C</span> <br />{" "}
-                  <span className="descripcion">80 m2 + 14.7 m2 de balcón</span>
+                  <span className="descripcion">80m² + 14.7m² de balcón</span>
                 </Tab>
                 <Tab>
                   <span className="titulo">Prototipo D</span> <br />{" "}
-                  <span className="descripcion">
-                    76.4 m2 + 14.9 m2 de balcón
-                  </span>
+                  <span className="descripcion">76.4m² + 14.9m² de balcón</span>
                 </Tab>
                 <Tab>
                   <span className="titulo">Prototipo E </span> <br />{" "}
-                  <span className="descripcion">
-                    67.9 m2 + 12.5 m2 de balcón
-                  </span>
+                  <span className="descripcion">67.9m² + 12.5m² de balcón</span>
                 </Tab>
                 <Tab>
                   <span className="titulo">Prototipo F</span> <br />{" "}
-                  <span className="descripcion">63.3 m2 + 12.3 m2</span>
+                  <span className="descripcion">63.3m² + 12.3m² de balcón</span>
                 </Tab>
                 <Tab>
                   <span className="titulo">Prototipo G</span> <br />{" "}
-                  <span className="descripcion">
-                    51.7 m2 + 12.3 m2 de balcón
-                  </span>
+                  <span className="descripcion">51.7m² + 12.3m² de balcón</span>
                 </Tab>
               </TabList>
 
