@@ -2,9 +2,15 @@ import styled from "styled-components/macro"
 import { Box } from "~styled"
 
 const Form = styled(Box)`
+  #contacto {
+    padding-top: 130px;
+  }
   @media (max-width: 578px) {
     .margen-up {
       padding-top: 16px;
+    }
+    #contacto {
+      padding-top: 50px;
     }
   }
   .contactanos {

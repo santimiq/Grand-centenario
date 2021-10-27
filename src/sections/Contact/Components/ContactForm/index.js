@@ -6,11 +6,12 @@ import { Container, Row, Col } from "react-bootstrap"
 export default function ContactForm({ ...rest }) {
   return (
     <Form {...rest}>
+      <div id="contacto"></div>
       <Row>
         <Col className="col-xl-8 col-lg-8 col-md-6 col-xs-12">
           <p className="form-whatsapp">¿Tienes alguna duda?</p>
           <h3 className="form-title">Escríbenos</h3>
-          <div className="contact-form" id="contacto">
+          <div className="contact-form">
             <form
               name="contact"
               method="post"
