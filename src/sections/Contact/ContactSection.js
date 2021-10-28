@@ -4,6 +4,7 @@ import ContactForm from "./Components/ContactForm"
 import ContactMap from "./Components/Map"
 import Contact from "./style"
 import Mapa from "~image/mapa-ubi.jpeg"
+import Zoom from "react-reveal/Zoom"
 
 export default function ContactSction({ ...rest }) {
   return (
@@ -23,7 +24,9 @@ export default function ContactSction({ ...rest }) {
               className="col-12 rounded"
               height="550px"
             ></iframe> */}
-            <img src={Mapa} data-aos="zoom-in" width="80%" />
+            <Zoom>
+              <img src={Mapa} width="80%" />
+            </Zoom>
           </Col>
           <Col xs="10" className="col-lg-12 col-xl-12 mb-7 mb-lg-0 col-md-10">
             <ContactForm className="text-start" mt="50px" />

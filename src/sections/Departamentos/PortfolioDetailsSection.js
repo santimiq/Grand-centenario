@@ -5,7 +5,7 @@ import PortfolioDetails from "./style"
 import DeptoUno from "../../assets/image/departamentos/depto1.jpg"
 import DeptoDos from "../../assets/image/departamentos/depto2.jpg"
 import DeptoTres from "../../assets/image/departamentos/depto3.jpg"
-
+import Zoom from "react-reveal/Zoom"
 // import Portfolio from "src/sections/digital/Portfolio/style"
 
 const breakpointColumnsObj = {
@@ -29,52 +29,60 @@ export default function PortfolioDetailsSection() {
 
         <Row className="justify-content-center">
           <Col xs="10" className="col-xl-4 col-lg-4 col-md-10 col-xs-10 mb-5">
-            <div className="deptos" data-aos="fade-up">
-              <img src={DeptoUno} />
-              <div>
-                <h3>Características</h3>
-                <ul>
-                  <li>50 a 140m²</li>
-                  <li>Todos con balcón</li>
-                  <li>1, 2 y 3 recámaras</li>
-                  <li>1, 2 o 3 baños</li>
-                  <li>1 o 2 estacionamientos</li>
-                  <li>Opción de Bodega</li>
-                </ul>
+            <Zoom>
+              <div className="deptos" data-aos="fade-up">
+                <img src={DeptoUno} />
+                <div>
+                  <h3>Características</h3>
+                  <ul>
+                    <li>50 a 140m²</li>
+                    <li>Todos con balcón</li>
+                    <li>1, 2 y 3 recámaras</li>
+                    <li>1, 2 o 3 baños</li>
+                    <li>1 o 2 estacionamientos</li>
+                    <li>Opción de Bodega</li>
+                  </ul>
+                </div>
               </div>
-            </div>
+            </Zoom>
           </Col>
           <Col xs="10" className="col-xl-4 col-lg-4 col-md-10 col-xs-10 mb-5">
-            <div className="deptos" data-aos="fade-up">
-              <img src={DeptoDos} />
-              <div>
-                <h3>Acabados</h3>
-                <ul>
-                  <li>Pisos de porcelanato en sala-comedor, cocina y baños.</li>
-                  <li>Pisos de madera de ingeniería en recámaras.</li>
-                  <li>Cocina integral con cubierta de granito.</li>
-                  <li>Lavabo con cubierta de mármol en baño.</li>
-                  <li>Lámparas led.</li>
-                  <li>Closets con diseño moderno y funcional.</li>
-                </ul>
+            <Zoom>
+              <div className="deptos" data-aos="fade-up">
+                <img src={DeptoDos} />
+                <div>
+                  <h3>Acabados</h3>
+                  <ul>
+                    <li>
+                      Pisos de porcelanato en sala-comedor, cocina y baños.
+                    </li>
+                    <li>Pisos de madera de ingeniería en recámaras.</li>
+                    <li>Cocina integral con cubierta de granito.</li>
+                    <li>Lavabo con cubierta de mármol en baño.</li>
+                    <li>Lámparas led.</li>
+                    <li>Closets con diseño moderno y funcional.</li>
+                  </ul>
+                </div>
               </div>
-            </div>
+            </Zoom>
           </Col>
           <Col xs="10" className="col-xl-4 col-lg-4 col-md-10 col-xs-10">
-            <div className="deptos" data-aos="fade-up">
-              <img src={DeptoTres} />
-              <div>
-                <h3>Servicios</h3>
-                <ul>
-                  <li>Oficinas privadas</li>
-                  <li>Seguridad</li>
-                  <li>Estacionamiento de visitas</li>
-                  <li>Lavandería</li>
-                  <li>Snack</li>
-                  <li>Minisúper </li>
-                </ul>
+            <Zoom>
+              <div className="deptos" data-aos="fade-up">
+                <img src={DeptoTres} />
+                <div>
+                  <h3>Servicios</h3>
+                  <ul>
+                    <li>Oficinas privadas</li>
+                    <li>Seguridad</li>
+                    <li>Estacionamiento de visitas</li>
+                    <li>Lavandería</li>
+                    <li>Snack</li>
+                    <li>Minisúper </li>
+                  </ul>
+                </div>
               </div>
-            </div>
+            </Zoom>
           </Col>
         </Row>
       </Container>
