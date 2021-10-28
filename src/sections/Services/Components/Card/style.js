@@ -51,6 +51,9 @@ const Card = styled(Box)`
       background: #fff;
     }
   }
+  .logo-grand {
+    max-width: 40%;
+  }
 `
 Card.Icon = styled(Box).attrs({ className: "card-icon" })`
   min-width: 65px;

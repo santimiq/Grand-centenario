@@ -8,7 +8,10 @@ export default function ContactForm({ ...rest }) {
     <Form {...rest}>
       <div id="contacto"></div>
       <Row>
-        <Col className="col-xl-8 col-lg-8 col-md-6 col-xs-12">
+        <Col
+          className="col-xl-8 col-lg-8 col-md-6 col-xs-12"
+          data-aos="fade-right"
+        >
           <p className="form-whatsapp">¿Tienes alguna duda?</p>
           <h3 className="form-title">Escríbenos</h3>
           <div className="contact-form">
@@ -96,7 +99,11 @@ export default function ContactForm({ ...rest }) {
             </form>
           </div>
         </Col>
-        <Col xs="12" className="col-xl-4 col-lg-4 col-md-6 col-xs-12 margen-up">
+        <Col
+          xs="12"
+          className="col-xl-4 col-lg-4 col-md-6 col-xs-12 margen-up"
+          data-aos="fade-left"
+        >
           <div className="contactanos">
             <h3>Contáctanos</h3>
             <p>Para nosotros es muy importante tu opinión, escríbenos.</p>

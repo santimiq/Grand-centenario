@@ -11,7 +11,7 @@ export default function HeroSection() {
         <Row className="justify-content-start">
           <Col className="col-xl-9">
             <Hero.Content className="text-left">
-              <Hero.Title as="h1" fontColor="#fff">
+              <Hero.Title as="h1" fontColor="#fff" data-aos="fade-up">
                 Un lugar para disfrutar
               </Hero.Title>
               <Hero.Text fontColor="#fff">

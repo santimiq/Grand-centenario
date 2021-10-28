@@ -1,4 +1,6 @@
 import React from "react"
+import AOS from "aos"
+import "aos/dist/aos.css"
 import SimpleReactLightbox from "simple-react-lightbox"
 import { PageWrapper } from "~components"
 import Banner from "~sections/Hero"
@@ -20,6 +22,7 @@ const header = {
 }
 
 export default function Marketing() {
+  AOS.init()
   return (
     <PageWrapper headerConfig={header}>
       <Banner />

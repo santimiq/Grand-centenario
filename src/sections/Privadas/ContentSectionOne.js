@@ -13,6 +13,7 @@ export default function ContentSectionOne() {
             <Col
               xs="12"
               className="col-lg-4 col-md-8 col-xs-11 text-center text-lg-start"
+              data-aos="fade-right"
             >
               {/* Section Title */}
               <SectionTitle
@@ -28,7 +29,11 @@ export default function ContentSectionOne() {
                 propio para desarrollarse y crecer de manera profesional.
               </p>
             </Col>
-            <Col xs="12" className="col-xl-5 col-lg-4 col-md-6 col-xs-9 ">
+            <Col
+              xs="12"
+              className="col-xl-5 col-lg-4 col-md-6 col-xs-9 "
+              data-aos="fade-left"
+            >
               <Content.Image mt="30px" mb="30px" mbMD="0" mtMD="0">
                 <Img
                   src="../../assets/image/home-agency/oficina1.jpg"
@@ -41,6 +46,7 @@ export default function ContentSectionOne() {
             <Col
               xs="12"
               className="col-xl-3 col-lg-4 col-md-6 col-xs-10 order-3  "
+              data-aos="fade-left"
             >
               <Content.WidgetsWrapper
               // mb="-10px"

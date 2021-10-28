@@ -10,7 +10,7 @@ export default function ContentSectionOne() {
       <Container>
         <Row className="align-items-center justify-content-center">
           <Col className="col-xl-5 col-lg-6 col-md-8 col-xs-10 order-1 order-lg-1">
-            <Content.Box mb="65px">
+            <Content.Box mb="65px" data-aos="fade-right">
               <SectionTitle
                 title="Proyecto"
                 text="Además de espacios funcionales y modernos al interior de los departamentos, nos hemos ocupado por diseñar áreas deportivas y de esparcimiento para que la familia realice las actividades de su preferencia en ambientes agradables, divertidos y seguros, lo que sin duda te dará una mejor calidad de vida."
@@ -37,7 +37,7 @@ export default function ContentSectionOne() {
             xs="12"
             className="col-xl-6 offset-xl-1 col-lg-6 col-md-8 col-xs-10 order-2 order-lg-2"
           >
-            <Content.Image>
+            <Content.Image data-aos="fade-left">
               <Img
                 className="w-100 imagen"
                 src="../../assets/image/proyecto/img1.jpg"

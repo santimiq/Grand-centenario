@@ -12,6 +12,7 @@ export default function ServicesSection() {
 
           <Col xs="6" className="col-xl-4 col-lg-4 col-md-6 col-xs-6 mt-5">
             <ServicesCard
+              data-aos="zoom-in"
               title="Torre Centenario"
               icon="fas fa-building"
               iconColor="#306095"
@@ -21,6 +22,7 @@ export default function ServicesSection() {
           {/*/ .Single Services */}
           <Col xs="6" className="col-xl-4 col-lg-4 col-md-6 col-xs-6 mt-5">
             <ServicesCard
+              data-aos="zoom-in"
               title="Torre Park"
               icon="fas fa-building"
               iconColor="#306095"
@@ -31,6 +33,7 @@ export default function ServicesSection() {
           {/*/ .Single Services */}
           <Col xs="6" className="col-xl-4 col-lg-4 col-md-6 col-xs-6 mt-5">
             <ServicesCard
+              data-aos="zoom-in"
               title="Sky Park"
               icon="fas fa-building"
               iconColor="#306095"
@@ -41,6 +44,7 @@ export default function ServicesSection() {
           {/* Single Services */}
           <Col xs="6" className="col-xl-4 col-lg-4 col-md-6 col-xs-6 mt-5">
             <ServicesCard
+              data-aos="zoom-in"
               title="Torre Lago"
               icon="fas fa-building"
               iconColor="#306095"
@@ -49,6 +53,7 @@ export default function ServicesSection() {
           </Col>
           <Col xs="6" className="col-xl-4 col-lg-4 col-md-6 col-xs-6 mt-5">
             <ServicesCard
+              data-aos="zoom-in"
               title="Exteriores"
               icon="fas fa-building"
               iconColor="#306095"
@@ -57,6 +62,7 @@ export default function ServicesSection() {
           </Col>
           <Col xs="6" className="col-xl-4 col-lg-4 col-md-6 col-xs-6 mt-5">
             <ServicesCard
+              data-aos="zoom-in"
               title="Torre City"
               icon="fas fa-building"
               iconColor="#306095"

@@ -29,7 +29,7 @@ export default function PortfolioDetailsSection() {
 
         <Row className="justify-content-center">
           <Col xs="10" className="col-xl-4 col-lg-4 col-md-10 col-xs-10 mb-5">
-            <div className="deptos">
+            <div className="deptos" data-aos="fade-up">
               <img src={DeptoUno} />
               <div>
                 <h3>Características</h3>
@@ -45,7 +45,7 @@ export default function PortfolioDetailsSection() {
             </div>
           </Col>
           <Col xs="10" className="col-xl-4 col-lg-4 col-md-10 col-xs-10 mb-5">
-            <div className="deptos">
+            <div className="deptos" data-aos="fade-up">
               <img src={DeptoDos} />
               <div>
                 <h3>Acabados</h3>
@@ -61,7 +61,7 @@ export default function PortfolioDetailsSection() {
             </div>
           </Col>
           <Col xs="10" className="col-xl-4 col-lg-4 col-md-10 col-xs-10">
-            <div className="deptos">
+            <div className="deptos" data-aos="fade-up">
               <img src={DeptoTres} />
               <div>
                 <h3>Servicios</h3>

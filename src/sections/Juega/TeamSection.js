@@ -12,12 +12,13 @@ export default function TeamSection({ ...rest }) {
           <Col className="col-xxl-6 col-md-8 col-xs-10">
             <Team.Box className="text-center">
               <SectionTitle
-                title="¡Juega, descansa, trabaja, haz deporte, estudia y divertirse sin salir de casa!"
+                data-aos="zoom-in"
+                title="¡Juega, descansa, trabaja, haz deporte, estudia y diviértete sin salir de casa!"
                 titleProps={{ mb: "33px" }}
                 subTitleProps={{ mb: "20px" }}
               />
             </Team.Box>
-            <p className="text-center">
+            <p className="text-center" data-aos="zoom-in">
               Disfruta con los amigos y la familia de estas increíbles
               amenidades, cuyo diseñado se inspiró en las actividades y forma de
               vida que más te gustan. Todos encontrarán su espacio favorito.

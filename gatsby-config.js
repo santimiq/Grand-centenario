@@ -37,5 +37,11 @@ module.exports = {
         plugins: [`gatsby-remark-responsive-iframe`],
       },
     },
+    {
+      resolve: `gatsby-plugin-facebook-pixel`,
+      options: {
+        pixelId: "641495950568071",
+      },
+    },
   ],
 }

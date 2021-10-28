@@ -28,7 +28,8 @@ export default function FooterOne() {
                     <span>Dirección:</span>
                     <span>
                       Prol. 5 de Mayo 3121,
-                      <br /> Col Ex-Hacienda de Tarango, Álvaro Obregón, CDMX
+                      <br /> Col Ex-Hacienda de Tarango,
+                      <br /> Álvaro Obregón, CDMX
                     </span>
                   </Footer.AddressItem>
                   <Footer.AddressItem>
