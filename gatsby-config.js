@@ -38,10 +38,10 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-facebook-pixel`,
-      options: {
-        pixelId: "",
-      },
+      // resolve: `gatsby-plugin-facebook-pixel`,
+      // options: {
+      //   pixelId: "",
+      // },
     },
   ],
 }
