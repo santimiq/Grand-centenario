@@ -12,6 +12,9 @@ import hoja4 from "~image/depto-proto/hojas-4.600.jpg"
 import hoja5 from "~image/depto-proto/hojas-5.600.jpg"
 import hoja6 from "~image/depto-proto/hojas-6.600.jpg"
 import hoja7 from "~image/depto-proto/hojas-7.600.jpg"
+import hoja8 from "~image/depto-proto/K.jpg"
+import hoja9 from "~image/depto-proto/L.jpg"
+import hoja10 from "~image/depto-proto/M.jpg"
 
 import ModalImage from "react-modal-image"
 import "react-tabs/style/react-tabs.css"
@@ -25,6 +28,7 @@ export default function FeatureSection() {
               <Feature.TitleThree as="">
                 Departamentos Prototipos
               </Feature.TitleThree>
+              <h3 className="torre text-center">Torre Centenario</h3>
             </Feature.Box>
           </Col>
         </Row>
@@ -108,6 +112,63 @@ export default function FeatureSection() {
                 <ModalImage
                   small={hoja7}
                   large={hoja7}
+                  className="borde-modal"
+                />
+              </TabPanel>
+            </Tabs>
+          </Col>
+        </Row>
+      </div>
+      <div className="apagar-lg">
+        <Row className="align-items-center justify-content-center">
+          <Col xs="10" className="col-xl-10 col-lg-6 col-md-10 col-xs-10">
+            <Feature.Box>
+              <h3 className="torre park text-center">Torre Park</h3>
+            </Feature.Box>
+          </Col>
+        </Row>
+        <Row className="justify-content-center">
+          <Col xs="10" className="col-xl-10 col-xs-10 col-md-10">
+            <Tabs className="text-center ">
+              <TabList className=" justify-content-center">
+                <Tab>
+                  <span className="titulo">Prototipo K</span> <br />{" "}
+                  <span className="descripcion">
+                    90.50m² + 17.70m² de balcón
+                  </span>
+                </Tab>
+                <Tab>
+                  <span className="titulo">Prototipo L</span> <br />{" "}
+                  <span className="descripcion">
+                    70.90m² + 13.80m² de balcón
+                  </span>
+                </Tab>
+                <Tab>
+                  <span className="titulo">Prototipo M</span> <br />{" "}
+                  <span className="descripcion">
+                    64.80m² + 12.65m² de balcón
+                  </span>
+                </Tab>
+              </TabList>
+
+              <TabPanel>
+                <ModalImage
+                  small={hoja8}
+                  large={hoja8}
+                  className="borde-modal"
+                />
+              </TabPanel>
+              <TabPanel>
+                <ModalImage
+                  small={hoja9}
+                  large={hoja9}
+                  className="borde-modal"
+                />
+              </TabPanel>
+              <TabPanel>
+                <ModalImage
+                  small={hoja10}
+                  large={hoja10}
                   className="borde-modal"
                 />
               </TabPanel>

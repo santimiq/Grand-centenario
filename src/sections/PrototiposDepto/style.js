@@ -3,7 +3,18 @@ import { Box, Heading, Button, Paragraph } from "~styled"
 
 const Feature = styled(Box)`
   padding-bottom: 50px;
-
+  .torre {
+    color: #306095;
+    margin: 32px 0;
+  }
+  .park {
+    @media (min-width: 992px) {
+      margin-top: 150px;
+    }
+    @media (max-width: 578px) {
+      margin-top: 50px;
+    }
+  }
   @media (max-width: 578px) {
     padding-top: 0px;
     .react-tabs__tab-list {
