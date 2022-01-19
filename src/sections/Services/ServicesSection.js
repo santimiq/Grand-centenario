@@ -18,7 +18,7 @@ export default function ServicesSection() {
                 title="Torre Centenario"
                 icon="fas fa-building"
                 iconColor="#306095"
-                text="Salón de Fiestas <br/>Salón Inglés<br/>2 Salones Lounge<br/>Cine"
+                text="Salón de fiestas <br/>Salón inglés<br/>2 Salones lounge<br/>Cine"
               />
             </Zoom>
           </Col>
@@ -30,7 +30,7 @@ export default function ServicesSection() {
                 title="Torre Park"
                 icon="fas fa-building"
                 iconColor="#306095"
-                text="Gym <br/>Spinning<br/>CrossFit<br/>Vapor/Sauna <br/>Alberca Semiolímpica <br/> Alberca infantil"
+                text="Gym <br/>Spinning<br/>CrossFit<br/>Vapor/Sauna <br/>Alberca semiolímpica <br/> Alberca infantil"
               />
             </Zoom>
           </Col>
@@ -43,7 +43,7 @@ export default function ServicesSection() {
                 title="Sky Park"
                 icon="fas fa-building"
                 iconColor="#306095"
-                text="Asadores <br/> Fogateros<br/>Sky Lounge"
+                text="Asadores <br/> Fogateros<br/>Sky lounge"
               />
             </Zoom>
           </Col>
@@ -56,7 +56,7 @@ export default function ServicesSection() {
                 title="Torre Lago"
                 icon="fas fa-building"
                 iconColor="#306095"
-                text="Lobby principal <br/>Oficinas Privadas<br/>Snack"
+                text="Lobby principal <br/>Estudios privados<br/>Snack"
               />
             </Zoom>
           </Col>
@@ -67,7 +67,7 @@ export default function ServicesSection() {
                 title="Exteriores"
                 icon="fas fa-building"
                 iconColor="#306095"
-                text="Lago y cascada <br/>4,120m² de jardines<br/>Paddle / Tennis <br/>Garden Gym<br/>Juegos infantiles <br/>Basket 21 <br/>Área de mascotas <br/>Circuito infantil <br/>Golfito"
+                text="Lago y cascada <br/>4,120m² de jardines<br/>Paddle / Tennis <br/>Garden gym<br/>Juegos infantiles <br/>Basket 21 <br/>Área de mascotas <br/>Circuito infantil <br/>Golfito"
               />
             </Zoom>
           </Col>
@@ -78,7 +78,7 @@ export default function ServicesSection() {
                 title="Torre City"
                 icon="fas fa-building"
                 iconColor="#306095"
-                text="Boliche <br/>Arcade<br/>Kids Club<br/>Salón de juegos <br/>Salón de estudio"
+                text="Boliche <br/>Arcade<br/>Kids club<br/>Salón de juegos <br/>Salón de estudio"
               />
             </Zoom>
           </Col>

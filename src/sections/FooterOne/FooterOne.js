@@ -86,7 +86,7 @@ export default function FooterOne() {
               sin previo aviso.
               <br />
               Las fotos en este blog corresponden a imágenes de otros proyectos
-              desarrollados por el mismo grupo. No contribuye un compromiso,
+              desarrollados por el mismo grupo. No constituye un compromiso,
               obligación u oferta comercial alguna*
             </Footer.Text>
             <Footer.Copyright>

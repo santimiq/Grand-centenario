@@ -18,16 +18,16 @@ export default function ContentSectionOne() {
               <Fade left>
                 {/* Section Title */}
                 <SectionTitle
-                  title="Oficinas Privadas"
+                  title="Estudios Privados"
                   text="¿Necesitas un espacio para trabajar que no esté dentro de tu propia casa, pero al que llegues caminando en dos minutos?"
                   titleProps={{ mb: "30px" }}
                   subTitleProps={{ mb: "25px" }}
                 />
                 <p>
-                  En Grand Tower Centenario ofrecemos oficinas privadas para
+                  En Grand Tower Centenario ofrecemos estudios privados para
                   quienes como tú desean la comodidad y el privilegio de vivir y
                   trabajar en el mismo lugar y les interesa contar con un área
-                  propio para desarrollarse y crecer de manera profesional.
+                  propia para desarrollarse y crecer de manera profesional.
                 </p>
               </Fade>
             </Col>
@@ -66,12 +66,12 @@ export default function ContentSectionOne() {
                       <br /> Hasta 14.40m²
                     </Content.WidgetText>
                     <ul>
-                      <li>Acceso Controlado</li>
+                      <li>Acceso controlado</li>
                       <li>Seguridad</li>
                       <li>Sala de juntas</li>
                       <li>Centro de paquetería</li>
                       <li>Snack</li>
-                      <li>Servicio de baños</li>
+                      <li>Baños</li>
                     </ul>
                   </Content.Widget>
                 </Content.WidgetsWrapper>

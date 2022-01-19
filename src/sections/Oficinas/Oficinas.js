@@ -30,7 +30,7 @@ export default function ContentSectionTwo() {
               <Content.Box>
                 <Content.Title as="h2">
                   {" "}
-                  <SuperTag value="Oficinas Privadas" />{" "}
+                  <SuperTag value="Estudios Privados" />{" "}
                 </Content.Title>
 
                 <Content.Text>

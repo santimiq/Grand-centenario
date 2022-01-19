@@ -21,7 +21,7 @@ export default function TeamSection({ ...rest }) {
             </Team.Box>
             <p className="text-center">
               Disfruta con los amigos y la familia de estas increíbles
-              amenidades, cuyo diseñado se inspiró en las actividades y forma de
+              amenidades, cuyo diseño se inspiró en las actividades y forma de
               vida que más te gustan. Todos encontrarán su espacio favorito.
             </p>
           </Col>

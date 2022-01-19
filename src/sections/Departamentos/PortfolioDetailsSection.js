@@ -73,7 +73,7 @@ export default function PortfolioDetailsSection() {
                 <div>
                   <h3>Servicios</h3>
                   <ul>
-                    <li>Oficinas privadas</li>
+                    <li>Estudios privados</li>
                     <li>Seguridad</li>
                     <li>Estacionamiento de visitas</li>
                     <li>Lavandería</li>
