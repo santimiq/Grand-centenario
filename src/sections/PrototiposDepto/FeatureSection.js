@@ -15,6 +15,12 @@ import hoja7 from "~image/depto-proto/hojas-7.600.jpg"
 import hoja8 from "~image/depto-proto/K.jpg"
 import hoja9 from "~image/depto-proto/L.jpg"
 import hoja10 from "~image/depto-proto/M.jpg"
+import hoja11 from "~image/depto-proto/102.jpeg"
+import hoja12 from "~image/depto-proto/403.jpeg"
+import hoja13 from "~image/depto-proto/407.jpeg"
+import hoja14 from "~image/depto-proto/504.jpeg"
+import hoja15 from "~image/depto-proto/602.jpeg"
+import hoja16 from "~image/depto-proto/1106.jpeg"
 
 import ModalImage from "react-modal-image"
 import "react-tabs/style/react-tabs.css"
@@ -169,6 +175,102 @@ export default function FeatureSection() {
                 <ModalImage
                   small={hoja10}
                   large={hoja10}
+                  className="borde-modal"
+                />
+              </TabPanel>
+            </Tabs>
+          </Col>
+        </Row>
+      </div>
+      <div className="apagar-lg">
+        <Row className="align-items-center justify-content-center">
+          <Col xs="10" className="col-xl-10 col-lg-6 col-md-10 col-xs-10">
+            <Feature.Box>
+              <h3 className="torre park text-center entrega" id="entrega">
+                ENTREGA INMEDIATA
+              </h3>
+            </Feature.Box>
+          </Col>
+        </Row>
+        <Row className="justify-content-center">
+          <Col xs="10" className="col-xl-10 col-xs-10 col-md-10">
+            <Tabs className="text-center ">
+              <TabList className=" justify-content-center">
+                <Tab>
+                  <span className="titulo">Dpto 102</span> <br />{" "}
+                  <span className="descripcion">
+                    64.60m² + 4.21m² de balcón
+                  </span>
+                </Tab>
+                <Tab>
+                  <span className="titulo">Dpto 403</span> <br />{" "}
+                  <span className="descripcion">
+                    69.20m² + 5.18m² de balcón
+                  </span>
+                </Tab>
+                <Tab>
+                  <span className="titulo">Dpto 407</span> <br />{" "}
+                  <span className="descripcion">75.71m² de balcón</span>
+                </Tab>
+                <Tab>
+                  <span className="titulo">Dpto 504</span> <br />{" "}
+                  <span className="descripcion">
+                    71.50m² + 5.18m² de balcón
+                  </span>
+                </Tab>
+                <Tab>
+                  <span className="titulo">Dpto 602</span> <br />{" "}
+                  <span className="descripcion">
+                    45.40m² + 5.01m² de balcón
+                  </span>
+                </Tab>
+                <Tab>
+                  <span className="titulo">Dpto 1106</span> <br />{" "}
+                  <span className="descripcion">
+                    75.30m² + 4.86m² de balcón
+                  </span>
+                </Tab>
+              </TabList>
+
+              <TabPanel>
+                <ModalImage
+                  small={hoja11}
+                  large={hoja11}
+                  className="borde-modal"
+                />
+              </TabPanel>
+              <TabPanel>
+                <ModalImage
+                  small={hoja12}
+                  large={hoja12}
+                  className="borde-modal"
+                />
+              </TabPanel>
+              <TabPanel>
+                <ModalImage
+                  small={hoja13}
+                  large={hoja13}
+                  className="borde-modal"
+                />
+              </TabPanel>
+              <TabPanel>
+                <ModalImage
+                  small={hoja14}
+                  large={hoja14}
+                  className="borde-modal"
+                />
+              </TabPanel>
+              <TabPanel>
+                <ModalImage
+                  small={hoja15}
+                  large={hoja15}
+                  className="borde-modal"
+                />
+              </TabPanel>
+              <TabPanel>
+                <ModalImage
+                  small={hoja16}
+                  large={hoja16}
                   className="borde-modal"
                 />
               </TabPanel>

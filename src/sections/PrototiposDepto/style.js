@@ -15,6 +15,15 @@ const Feature = styled(Box)`
       margin-top: 50px;
     }
   }
+  .entrega {
+    @media (min-width: 992px) {
+      margin-top: 150px !important;
+    }
+    @media (max-width: 578px) {
+      margin-top: 50px;
+    }
+  }
+
   @media (max-width: 578px) {
     padding-top: 0px;
     .react-tabs__tab-list {

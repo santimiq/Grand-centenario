@@ -28,6 +28,22 @@ const Hero = styled(Box)`
     padding-bottom: 80px;
   }
 
+  .entrega {
+    background: white;
+    padding: 8px 24px;
+    color: #002e6d !important;
+    border-radius: 15px;
+    border: 0px solid white;
+    box-shadow: 0 20px 20px rgb(0 46 109 / 30%);
+    transition: 0.3s;
+
+    &:hover {
+      color: #fff !important;
+      background-color: rgb(0, 46, 109);
+      border-color: #002e6d;
+    }
+  }
+
   &::before {
     content: "";
     width: 100%;

@@ -19,6 +19,9 @@ export default function HeroSection() {
                 <br /> diseñado bajo el concepto Residential & Amenities.
               </Hero.Text>
             </Hero.Content>
+            <a href="#entrega" className="entrega">
+              Entrega inmediata
+            </a>
           </Col>
         </Row>
       </Container>
