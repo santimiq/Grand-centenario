@@ -21,6 +21,9 @@ import hoja13 from "~image/depto-proto/407.jpeg"
 import hoja14 from "~image/depto-proto/504.jpeg"
 import hoja15 from "~image/depto-proto/602.jpeg"
 import hoja16 from "~image/depto-proto/1106.jpeg"
+import hoja17 from "~image/depto-proto/N.jpeg"
+import hoja18 from "~image/depto-proto/P.jpeg"
+import hoja19 from "~image/depto-proto/Q.jpeg"
 
 import ModalImage from "react-modal-image"
 import "react-tabs/style/react-tabs.css"
@@ -155,6 +158,24 @@ export default function FeatureSection() {
                     64.80m² + 12.65m² de balcón
                   </span>
                 </Tab>
+                <Tab>
+                  <span className="titulo">Prototipo N</span> <br />{" "}
+                  <span className="descripcion">
+                    62.35m² + 12.65m² de balcón
+                  </span>
+                </Tab>
+                <Tab>
+                  <span className="titulo">Prototipo P</span> <br />{" "}
+                  <span className="descripcion">
+                    80.50m² + 15.75m² de balcón
+                  </span>
+                </Tab>
+                <Tab>
+                  <span className="titulo">Prototipo Q</span> <br />{" "}
+                  <span className="descripcion">
+                    74.80m² + 22.50m² de balcón
+                  </span>
+                </Tab>
               </TabList>
 
               <TabPanel>
@@ -174,6 +195,27 @@ export default function FeatureSection() {
               <TabPanel>
                 <ModalImage
                   small={hoja10}
+                  large={hoja10}
+                  className="borde-modal"
+                />
+              </TabPanel>
+              <TabPanel>
+                <ModalImage
+                  small={hoja17}
+                  large={hoja17}
+                  className="borde-modal"
+                />
+              </TabPanel>
+              <TabPanel>
+                <ModalImage
+                  small={hoja18}
+                  large={hoja18}
+                  className="borde-modal"
+                />
+              </TabPanel>
+              <TabPanel>
+                <ModalImage
+                  small={hoja19}
                   large={hoja10}
                   className="borde-modal"
                 />
