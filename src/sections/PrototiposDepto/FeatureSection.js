@@ -224,7 +224,7 @@ export default function FeatureSection() {
           </Col>
         </Row>
       </div>
-      <div className="apagar-lg">
+      {/* <div className="apagar-lg">
         <Row className="align-items-center justify-content-center">
           <Col xs="10" className="col-xl-10 col-lg-6 col-md-10 col-xs-10">
             <Feature.Box>
@@ -319,7 +319,7 @@ export default function FeatureSection() {
             </Tabs>
           </Col>
         </Row>
-      </div>
+      </div> */}
     </Feature>
   )
 }
