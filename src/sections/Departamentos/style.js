@@ -10,6 +10,24 @@ const PortfolioDetails = styled(Box)`
     rgba(48, 96, 149, 0.932292) 21.37%,
     rgba(48, 96, 149, 0) 97.7%
   );
+  .btn-recorrido {
+    margin: 50px 10px;
+    padding: 8px 24px;
+    font-size: 14px;
+    color: #fff !important;
+    box-shadow: 0 20px 20px rgb(0 0 0 / 0%);
+    background-color: #306095;
+    border-color: rgba(#306095, 70%);
+    transition: 0.4s;
+    border-radius: 500px;
+
+    &:hover {
+      box-shadow: 0 20px 20px rgb(0 46 109 / 30%);
+      color: #306095 !important;
+      background-color: #fff;
+      border-color: #fff;
+    }
+  }
 
   @media (max-width: 768px) {
     padding-top: 80px;

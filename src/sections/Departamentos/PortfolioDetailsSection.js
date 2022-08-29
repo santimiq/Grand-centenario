@@ -24,6 +24,22 @@ export default function PortfolioDetailsSection() {
             <PortfolioDetails.Title as="h2">
               Departamentos
             </PortfolioDetails.Title>
+            <div className="group-recorrido">
+              <a
+                href="https://my.matterport.com/show/?m=QkZmhAt7tPq"
+                target="_blank"
+                className="btn-recorrido"
+              >
+                Recorrido Virtual Depto 1
+              </a>
+              <a
+                href="https://my.matterport.com/show/?m=aXvvYDEUwP3"
+                target="_blank"
+                className="btn-recorrido"
+              >
+                Recorrido Virtual Depto 2
+              </a>
+            </div>
           </Col>
         </Row>
 

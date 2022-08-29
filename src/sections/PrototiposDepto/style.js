@@ -23,6 +23,18 @@ const Feature = styled(Box)`
       margin-top: 50px;
     }
   }
+  @media (min-width: 992px) {
+    padding-top: 70px;
+    padding-bottom: 120px;
+    .group-recorrido {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 24px;
+    }
+    .btn-recorrido {
+      margin: 12px 20px;
+    }
+  }
 
   @media (max-width: 578px) {
     padding-top: 0px;
