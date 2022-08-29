@@ -19,7 +19,11 @@ export default function HeroSection() {
                 <br /> diseñado bajo el concepto Residential & Amenities.
               </Hero.Text>
             </Hero.Content>
-            <a href="#entrega" className="entrega">
+            <a
+              href="https://youtu.be/edy9h4d96is"
+              target="_blank"
+              className="entrega"
+            >
               Entrega inmediata
             </a>
           </Col>
