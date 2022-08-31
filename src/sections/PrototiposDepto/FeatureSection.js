@@ -24,6 +24,7 @@ import hoja16 from "~image/depto-proto/1106.jpeg"
 import hoja17 from "~image/depto-proto/N.jpeg"
 import hoja18 from "~image/depto-proto/P.jpeg"
 import hoja19 from "~image/depto-proto/Q.jpeg"
+import hoja20 from "~image/depto-proto/R.jpg"
 
 import ModalImage from "react-modal-image"
 import "react-tabs/style/react-tabs.css"
@@ -176,6 +177,12 @@ export default function FeatureSection() {
                     74.80m² + 22.50m² de balcón
                   </span>
                 </Tab>
+                <Tab>
+                  <span className="titulo">Prototipo R</span> <br />{" "}
+                  <span className="descripcion">
+                    69.14m² + 8.32m² de balcón
+                  </span>
+                </Tab>
               </TabList>
 
               <TabPanel>
@@ -216,7 +223,14 @@ export default function FeatureSection() {
               <TabPanel>
                 <ModalImage
                   small={hoja19}
-                  large={hoja10}
+                  large={hoja19}
+                  className="borde-modal"
+                />
+              </TabPanel>
+              <TabPanel>
+                <ModalImage
+                  small={hoja20}
+                  large={hoja20}
                   className="borde-modal"
                 />
               </TabPanel>
